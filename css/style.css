@@ -1,0 +1,179 @@
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #fbfbfa;
+  text-align: center;
+  padding: 2px 2px;
+  border-style: solid;
+  border-radius: 6px;
+  border-width: thin;
+  border-color: solid #000000;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+nav ul{
+list-style: none;
+text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 1% 1%;
+}
+
+body {
+  margin: 0;
+  padding: 15px 20px;
+  min-height: 99%;
+  width: auto;
+  min-width: 550px;
+  color: #595959;
+  background: #4A3CA6;
+  font-family: cursor, monospace;
+  font-size: 17px;
+  overflow-x: hidden;
+}
+::selection {
+  color: #211830;
+  background-color: #519975;
+}
+::-moz-selection {
+  color: #211830;
+  background-color: #519975;
+}
+textarea {
+  left: -1000px;
+  position: absolute;
+}
+b {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* Cursor Start */
+.cursor {
+  font-size: 15px;
+  color: #202020;
+  background-color: #202020;
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 8px;
+  max-width: 10px;
+  transform: translateY(4px);
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 0.75s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+#command {
+  cursor: text;
+  height: 50px;
+  color: #000000;
+}
+#liner {
+  line-height: 1.3em;
+  margin-top: -2px;
+  animation: show 0.5s ease forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+#liner::before {
+  color: #ffffff;
+  background-color: #000000;
+  content: "guest@adnanPortfolio.github.io:~$";
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Cursor End */
+p {
+  display: block;
+  line-height: 1.3em;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 0.05em;
+  animation: typing 0.5s steps(30, end);
+}
+.no-animation {
+  animation: typing 0 steps(30, end);
+}
+.margin {
+  margin-left: 20px;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.index {
+  color: #000000;
+}
+.color2 {
+  color: #000000;
+}
+.command {
+  color: #ffffff;
+  background-color: #000000;
+}
+.error {
+  color: #000000;
+}
+.white {
+  color: #fff;
+}
+.inherit,
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+a:hover {
+  background: #000000;
+  color: #ffffff;
+}
+a:focus {
+  outline: 0;
+}
+
+img{
+  width: 200px;
+  height: auto;
+  border-radius: 1%;
+}
