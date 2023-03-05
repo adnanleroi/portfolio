@@ -22,20 +22,9 @@ secret = [
 
 projects = [
   "<br>",
-  '## <a onclick=\"newTab(\'https://github.com/1hachem/galaxai_prototype\')\">Galaxai</a> ','a graph-like networking platform','for AI/ML community',
+  '##  Temperature Indicator','A system that takes into account both external and internal temperatures,equipped with two temperature probes,','one to be placed outside and the other inside the habitat (both to be kept in the shade).',
   "<br>",
-  '## <a onclick=\"newTab(\'https://github.com/1hachem/mutaGAN\')\">mutaGAN</a> ','a re-implementation of a seq2seq GAN','for protein generation',
-  "<br>",
-  '## <a onclick=\"newTab(\'https://github.com/1hachem/ScrapCo\')\">ScrapCo</a> ','python package to scrap data about','the hiring market (companies)',
-  "<br>",
-  '## <a onclick=\"newTab(\'https://github.com/1hachem/Monitoring-focus-by-recognizing-posture-and-signs-of-distraction\')\">focus-AI</a> ',
-  'using AI to recognize signs of distraction','and monitoring user\'s focus',
-  "<br>",
-  '## <a onclick=\"newTab(\'https://github.com/1hachem/semi-empirical-simulation-of-wildfire-on-satellite-data\')\">wildfire-sim</a> ',
-  'applying semi-empirical simulation of wildfire','on real-world satellite data',
-  "<br>",
-  '## <a onclick=\"newTab(\'https://github.com/1hachem/fetcher-chrome-extention\')\">fetcher-chrome-extension</a>',
-  'adds a context menu item that searches','for selected text on different sites',
+  '## Arduino Based CNC Plotter Machine','Numerous CNC machines exist globally, with some being highly technical and complex to manufacture or operate','successfully. Due to this, the decision was made to construct a straightforward CNC machine based on the Arduino','platform, which is by far the easiest to construct.',
   "<br>"
 ];
 
@@ -58,13 +47,11 @@ const deviceTypeAbout = () => {
   if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
     about = [
       "<br>",
-      "Hi there 👋",
-      "my name is Hachem Betrouni,", "I am a Data Science and AI student from Algeria ✨","<br>",
-      "🔭 for the past 6 months I worked at <a href=\"https://www.instadeep.com/\">InstaDeep</a>","on predicting and generating","new variants of Sars-CoV-2 using GANs","<br>",
-      "🌱 looking forward to joining <a href=\"https://www.deepmind.com/\">DeepMind</a>","as an AI research intern in the near future","<br>",
-      "🤓 I freelance on <a href=\"https://www.twitter.com/freelancers/~01b79e4e53cd1ca324\">twitter</a>","in machine learning and data science","<br>", 
-      "📫 Reach me at: adnan.amara@etu.enp-oran.dz","<br>",
-      "🤫 Fun fact about me : I never owned a smartphone 📱",
+      "my name is Adnan Amara,", "I am an electronics and embedded systems engineering student from Algeria ✨","<br>",
+      "👀 I\'m interested in Hardware hacking"," Robotics"," embedded systems","cryptography and ML","<br>",
+      "🌱 I believe that autonomous driving should not be limited to high-end vehicles","so I'm looking forward to develop retrofit kits that can be installed on existing cars to make them autonomous","<br>",
+      "📄 I\'m looking to collaborate on a research paper","<br>", 
+      "📫 How to reach me : adnan.amara@etu.enp-oran.dz","<br>",
       "<br>"
     ];
 
@@ -72,12 +59,11 @@ const deviceTypeAbout = () => {
   
     about = [
       "<br>",
-      "my name is Hachem Betrouni, I am a Data Science and AI student from Algeria ✨",
-      "🔭 for the past 6 months I worked at <a href=\"https://www.instadeep.com/\">InstaDeep</a> on predicting and generating new variants of Sars-CoV-2 using GANs", 
-      "🌱 looking forward to joining <a href=\"https://www.deepmind.com/\">DeepMind</a> as an AI research intern in the near future",
-      "🤓 I freelance on <a href=\"https://www.twitter.com/freelancers/~01b79e4e53cd1ca324\">twitter</a> in machine learning and data science", 
-      "📫 Reach me at: adnan.amara@etu.enp-oran.dz",
-      "🤫 Fun fact about me : I never owned a smartphone 📱",
+      "my name is Adnan Amara, I am an electronics and embedded systems engineering student from Algeria ✨",
+      "👀 I\'m interested in Hardware hacking, Robotics, embedded systems, cryptography and ML",
+      "🌱 I believe that autonomous driving should not be limited to high-end vehicles, so I'm looking forward","      to develop retrofit kits that can be installed on existing cars to make them autonomous",
+      "📄 I\'m looking to collaborate on a research paper", 
+      "📫 How to reach me : adnan.amara@etu.enp-oran.dz",
       "<br>"
     ];
   }
@@ -98,9 +84,3 @@ banner =[
 ];
 
 about = deviceTypeAbout();
-
-// blogs = [
-//   "<br>",
-//   "<a onclick='newTab(\"blogs/coverletters.html\")'> freelancers' guide to better cover letters </a>",
-//   "<br>"
-// ]

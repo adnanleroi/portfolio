@@ -62,10 +62,10 @@ function commander(cmd) {
       addLine("Loading humble cv...", "color2", 80);
       newTab(cv);
       break;
-    case "sudo":
-      addLine("Oh boy, you just got ...", "color2", 80);
+    case "meme":
+      addLine("No way!, then ...", "color2", 80);
       setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+        window.open('https://www.youtube.com/watch?v=rEq1Z0bjdwc');
       }, 1000); 
       break;
     case "links":
@@ -98,9 +98,9 @@ function commander(cmd) {
       addLine("Opening LinkedIn...", "color2", 0);
       newTab(linkedin);
       break;
-    case "upwork":
-      addLine("Opening upwork profile...", "color2", 0);
-      newTab(upwork);
+    case "twitter":
+      addLine("Opening twitter profile...", "color2", 0);
+      newTab(twitter);
       break;
     case "github":
       addLine("Opening GitHub...", "color2", 0);

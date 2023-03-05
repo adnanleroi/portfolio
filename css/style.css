@@ -27,7 +27,7 @@
   visibility: visible;
 }
 
-.avatar{
+.me{
     border-radius: 50%;
 }
 
@@ -48,13 +48,13 @@ body {
   width: auto;
   min-width: 550px;
   color: #595959;
-  background: #4A3CA6;
+  background: #F4EEF6;
   font-family: cursor, monospace;
   font-size: 17px;
   overflow-x: hidden;
 }
 ::selection {
-  color: #211830;
+  color: #4A3CA6;
   background-color: #519975;
 }
 ::-moz-selection {

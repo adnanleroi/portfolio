@@ -1,3 +1,3 @@
 usedbytes
 
-ps: dont `sudo` !
+ps: don't type `meme`, just don't !
