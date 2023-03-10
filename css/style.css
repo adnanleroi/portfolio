@@ -10,13 +10,13 @@
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #fbfbfa;
+  background-color: #772953;
   text-align: center;
   padding: 2px 2px;
   border-style: solid;
   border-radius: 6px;
   border-width: thin;
-  border-color: solid #000000;
+  border-color: solid #FFFEFF;
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
@@ -44,17 +44,17 @@ nav ul li{
 body {
   margin: 0;
   padding: 15px 20px;
-  min-height: 99%;
+  min-height: auto;
   width: auto;
   min-width: 550px;
-  color: #595959;
-  background: #F4EEF6;
+  color: #93a3a7;
+  background: #072D39;
   font-family: cursor, monospace;
   font-size: 17px;
   overflow-x: hidden;
 }
 ::selection {
-  color: #4A3CA6;
+  color: #211830;
   background-color: #519975;
 }
 ::-moz-selection {
@@ -72,8 +72,8 @@ b {
 /* Cursor Start */
 .cursor {
   font-size: 15px;
-  color: #202020;
-  background-color: #202020;
+  color: #eceaea;
+  background-color: #ffffff;
   position: relative;
   opacity: 1;
   height: 1.5em;
@@ -94,7 +94,7 @@ b {
 #command {
   cursor: text;
   height: 50px;
-  color: #000000;
+  color: #faf3f3;
 }
 #liner {
   line-height: 1.3em;
@@ -104,8 +104,8 @@ b {
   opacity: 0;
 }
 #liner::before {
-  color: #ffffff;
-  background-color: #000000;
+  color: #031603;
+  background-color: #35C713;
   content: "guest@adnanPortfolio.github.io:~$";
 }
 
@@ -122,8 +122,8 @@ p {
   display: block;
   line-height: 1.3em;
   margin: 0;
-  overflow: hidden;
-  white-space: nowrap;
+  overflow-x: visible;
+  white-space: wrap;
   margin: 0;
   letter-spacing: 0.05em;
   animation: typing 0.5s steps(30, end);
@@ -146,11 +146,11 @@ p {
   color: #000000;
 }
 .color2 {
-  color: #000000;
+  color: #FFFEFF;
 }
 .command {
-  color: #ffffff;
-  background-color: #000000;
+  color: #02191E;
+  background-color: #2FBCCB;
 }
 .error {
   color: #000000;
@@ -160,13 +160,13 @@ p {
 }
 .inherit,
 a {
-  color: #000000;
+  color: #FFFEFF;
   text-decoration: underline;
 }
 
 a:hover {
-  background: #000000;
-  color: #ffffff;
+  background: #2FBCCB;
+  color: #02191E;
 }
 a:focus {
   outline: 0;

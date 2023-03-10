@@ -22,10 +22,8 @@ secret = [
 
 projects = [
   "<br>",
-  '##  Temperature Indicator','A system that takes into account both external and internal temperatures,equipped with two temperature probes,','one to be placed outside and the other inside the habitat (both to be kept in the shade).',
-  "<br>",
-  '## Arduino Based CNC Plotter Machine','Numerous CNC machines exist globally, with some being highly technical and complex to manufacture or operate','successfully. Due to this, the decision was made to construct a straightforward CNC machine based on the Arduino','platform, which is by far the easiest to construct.',
-  "<br>"
+  '##  Temperature Indicator','A system that takes into account both external and internal temperatures,equipped with two temperature probes,','one to be placed outside and the other inside the habitat (both to be kept in the shade).',"<br>",
+  '## Arduino Based CNC Plotter Machine','Numerous CNC machines exist globally, with some being highly technical and complex to manufacture or operate','successfully. Due to this, the decision was made to construct a straightforward CNC machine based on the Arduino','platform, which is by far the easiest to construct.',"<br>"
 ];
 
 help = [
