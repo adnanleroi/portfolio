@@ -123,7 +123,7 @@ p {
   line-height: 1.3em;
   margin: 0;
   overflow-x: visible;
-  white-space: wrap;
+  white-space: nowrap;
   margin: 0;
   letter-spacing: 0.05em;
   animation: typing 0.5s steps(30, end);
