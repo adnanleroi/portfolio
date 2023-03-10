@@ -16,7 +16,7 @@
   border-style: solid;
   border-radius: 6px;
   border-width: thin;
-  border-color: solid #FFFEFF;
+  border-color: solid #000000;
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
@@ -44,11 +44,11 @@ nav ul li{
 body {
   margin: 0;
   padding: 15px 20px;
-  min-height: auto;
+  min-height: 99%;
   width: auto;
   min-width: 550px;
-  color: #93a3a7;
-  background: #072D39;
+  color: #595959;
+  background: #F4EEF6;
   font-family: cursor, monospace;
   font-size: 17px;
   overflow-x: hidden;
@@ -72,8 +72,8 @@ b {
 /* Cursor Start */
 .cursor {
   font-size: 15px;
-  color: #eceaea;
-  background-color: #ffffff;
+  color: #202020;
+  background-color: #202020;
   position: relative;
   opacity: 1;
   height: 1.5em;
@@ -94,7 +94,7 @@ b {
 #command {
   cursor: text;
   height: 50px;
-  color: #faf3f3;
+  color: #000000;
 }
 #liner {
   line-height: 1.3em;
@@ -104,8 +104,8 @@ b {
   opacity: 0;
 }
 #liner::before {
-  color: #031603;
-  background-color: #35C713;
+  color: #ffffff;
+  background-color: #000000;
   content: "guest@adnanPortfolio.github.io:~$";
 }
 
@@ -146,11 +146,11 @@ p {
   color: #000000;
 }
 .color2 {
-  color: #FFFEFF;
+  color: #000000;
 }
 .command {
-  color: #02191E;
-  background-color: #2FBCCB;
+  color: #ffffff;
+  background-color: #000000;
 }
 .error {
   color: #000000;
@@ -160,13 +160,13 @@ p {
 }
 .inherit,
 a {
-  color: #FFFEFF;
+  color: #000000;
   text-decoration: underline;
 }
 
 a:hover {
-  background: #2FBCCB;
-  color: #02191E;
+  background: #000000;
+  color: #ffffff;
 }
 a:focus {
   outline: 0;
