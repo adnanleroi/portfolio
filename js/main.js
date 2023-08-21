@@ -94,17 +94,17 @@ function commander(cmd) {
       }, 100);
       break;
     // links
-    case "linkedin":
+    case "LinkedIn":
       addLine("Opening LinkedIn...", "color2", 0);
-      newTab(linkedin);
+      newTab(LinkedIn);
       break;
-    case "x":
+    case "X":
       addLine("Opening X profile...", "color2", 0);
-      newTab(x);
+      newTab(X);
       break;
-    case "github":
+    case "Github":
       addLine("Opening GitHub...", "color2", 0);
-      newTab(github);
+      newTab(Github);
       break;
     default:
       addLine("Command not found. For a list of commands, type <span class=\"command\">help</span>", "error", 100);
