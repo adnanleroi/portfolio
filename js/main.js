@@ -28,7 +28,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("guest@adnanamara.me~$ " + command.innerHTML, "no-animation", 0);
+      addLine("guest@adnanPortfolio.github.io~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -95,7 +95,7 @@ function commander(cmd) {
       break;
     // links
     case "linkedin":
-      addLine("Opening linkedin...", "color2", 0);
+      addLine("Opening LinkedIn...", "color2", 0);
       newTab(linkedin);
       break;
     case "twitter":
@@ -103,7 +103,7 @@ function commander(cmd) {
       newTab(twitter);
       break;
     case "github":
-      addLine("Opening gitHub...", "color2", 0);
+      addLine("Opening GitHub...", "color2", 0);
       newTab(github);
       break;
     default:
