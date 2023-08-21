@@ -1,5 +1,5 @@
 var linkedin = "https://www.linkedin.com/in/adnan-amara/";
-var x = "https://x.com/westaxka";
+var twitter = "https://twitter.com/westaxka";
 var github = "https://github.com/adnanleroi/";
 var email = "mailto:adnan.amara@etu.enp-oran.dz";
 var cv = "assets/resume.pdf";
@@ -10,7 +10,7 @@ links = [
   "<br>",
   'github        <a href="' + github + '" target="_blank">github/adnanleroi' + "</a>",
   "<br>",
-  'x        <a href="' + x + '" target="_blank">x/westaxka' + "</a>",
+  'twitter        <a href="' + twitter + '" target="_blank">twitter/westaxka' + "</a>",
   "<br>"
 ];
 
