@@ -1,16 +1,16 @@
-var linkedin = "https://www.linkedin.com/in/adnan-amara/";
-var twitter = "https://twitter.com/westaxka";
-var github = "https://github.com/adnanleroi/";
-var email = "mailto:adnan.amara@etu.enp-oran.dz";
+var LinkedIn = "https://www.linkedin.com/in/adnan-amara/";
+var X = "https://x.com/westaxka";
+var Github = "https://github.com/adnanleroi/";
+var Email = "mailto:adnan.amara@etu.enp-oran.dz";
 var cv = "assets/resume.pdf";
 
 links = [
   "<br>",
-  'linkedin      <a href="' + linkedin + '" target="_blank">in/adnan-amara' + '</a>',
+  'LinkedIn      <a href="' + LinkedIn + '" target="_blank">in/adnan-amara' + '</a>',
   "<br>",
-  'github        <a href="' + github + '" target="_blank">github/adnanleroi' + "</a>",
+  'Github        <a href="' + Github + '" target="_blank">github/adnanleroi' + "</a>",
   "<br>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/westaxka' + "</a>",
+  'X        <a href="' + X + '" target="_blank">x/westaxka' + "</a>",
   "<br>"
 ];
 
