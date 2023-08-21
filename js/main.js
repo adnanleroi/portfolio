@@ -98,9 +98,9 @@ function commander(cmd) {
       addLine("Opening linkedin...", "color2", 0);
       newTab(linkedin);
       break;
-    case "x":
-      addLine("Opening x profile...", "color2", 0);
-      newTab(x);
+    case "twitter":
+      addLine("Opening twitter profile...", "color2", 0);
+      newTab(twitter);
       break;
     case "github":
       addLine("Opening gitHub...", "color2", 0);
