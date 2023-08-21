@@ -6,7 +6,7 @@ var cv = "assets/resume.pdf";
 
 links = [
   "<br>",
-  'linkedIn      <a href="' + linkedIn + '" target="_blank">in/adnan-amara' + '</a>',
+  'linkedin      <a href="' + linkedin + '" target="_blank">in/adnan-amara' + '</a>',
   "<br>",
   'github        <a href="' + github + '" target="_blank">github/adnanleroi' + "</a>",
   "<br>",
@@ -45,7 +45,7 @@ const deviceTypeAbout = () => {
   if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
     about = [
       "<br>",
-      "my name is Adnan Amara,", "I am an electronics and embedded systems engineer from Algeria ✨","<br>",
+      "my name is Adnan Amara,", "I am an electronics and embedded systems engineering student from Algeria ✨","<br>",
       "👀 I\'m interested in Hardware hacking"," Robotics"," embedded systems","cryptography and ML","<br>",
       "🌱 I believe that autonomous driving should not be limited to high-end vehicles","so I'm looking forward to develop retrofit kits that can be installed on existing cars to make them autonomous","<br>",
       "📄 I\'m looking to collaborate on a research paper","<br>", 
@@ -57,7 +57,7 @@ const deviceTypeAbout = () => {
   
     about = [
       "<br>",
-      "my name is Adnan Amara, I am an electronics and embedded systems engineer from Algeria ✨",
+      "my name is Adnan Amara, I am an electronics and embedded systems engineering student from Algeria ✨",
       "👀 I\'m interested in Hardware hacking, Robotics, embedded systems, cryptography and ML",
       "🌱 I believe that autonomous driving should not be limited to high-end vehicles, so I'm looking forward","      to develop retrofit kits that can be installed on existing cars to make them autonomous",
       "📄 I\'m looking to collaborate on a research paper", 
