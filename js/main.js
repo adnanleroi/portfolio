@@ -28,7 +28,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("guest@adnanPortfolio.github.io~$ " + command.innerHTML, "no-animation", 0);
+      addLine("guest@adnanamara.me~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -99,7 +99,7 @@ function commander(cmd) {
       newTab(linkedin);
       break;
     case "twitter":
-      addLine("Opening twitter profile...", "color2", 0);
+      addLine("Opening X profile...", "color2", 0);
       newTab(twitter);
       break;
     case "github":
