@@ -95,15 +95,15 @@ function commander(cmd) {
       break;
     // links
     case "linkedin":
-      addLine("Opening LinkedIn...", "color2", 0);
+      addLine("Opening linkedin...", "color2", 0);
       newTab(linkedin);
       break;
     case "x":
-      addLine("Opening X profile...", "color2", 0);
+      addLine("Opening x profile...", "color2", 0);
       newTab(x);
       break;
     case "github":
-      addLine("Opening GitHub...", "color2", 0);
+      addLine("Opening gitHub...", "color2", 0);
       newTab(github);
       break;
     default:
