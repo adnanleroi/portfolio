@@ -96,16 +96,18 @@ b {
   color: #faf3f3;
 }
 #liner {
-  line-height: 1.3em;
+  /* line-height: 1.3em;
   margin-top: -2px;
   animation: show 0.5s ease forwards;
   animation-delay: 1.2s;
-  opacity: 0;
+  opacity: 0; */
+  white-space: normal; 
+  width: auto;
 }
 #liner::before {
   color: #031603;
   background-color: #35C713;
-  content: "guest@adnanPortfolio.github.io:~$";
+  content: "guest@adnan-amara.me:~$";
 }
 
 @keyframes show {
@@ -122,10 +124,11 @@ p {
   line-height: 1.3em;
   margin: 0;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: normal;
   margin: 0;
   letter-spacing: 0.05em;
-  animation: typing 0.5s steps(30, end);
+  /* animation: typing 0.5s steps(30, end); */
+  max-width: 100%;
 }
 .no-animation {
   animation: typing 0 steps(30, end);

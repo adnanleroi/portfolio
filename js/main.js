@@ -28,7 +28,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("guest@adnanPortfolio.github.io~$ " + command.innerHTML, "no-animation", 0);
+      addLine("guest@adnan-amara.me~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -78,7 +78,7 @@ function commander(cmd) {
       loopLines(projects, "color2 margin", 80);
       break;
     case "email":
-      addLine('mail me at <a href="mailto:adnan.amara@etu.enp-oran.dz">adnan.amara@etu.enp-oran.dz</a>', "color2", 80);
+      addLine('mail me at <a href="mailto:adnanamara213@gmail.com">adnanamara213@gmail.com</a>', "color2", 80);
       break;
     // case "blogs":
     //   loopLines(blogs, "color2 margin", 80);
@@ -134,7 +134,7 @@ function addLine(text, style, time) {
     next.className = style;
 
     before.parentNode.insertBefore(next, before);
-
+    
     window.scrollTo(0, document.body.offsetHeight);
   }, time);
 }

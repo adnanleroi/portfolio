@@ -1,7 +1,7 @@
 var linkedin = "https://www.linkedin.com/in/adnan-amara/";
 var twitter = "https://twitter.com/westaxka";
 var github = "https://github.com/adnanleroi/";
-var email = "mailto:adnan.amara@etu.enp-oran.dz";
+var email = "mailto:adnanamara213@gmail.com";
 var cv = "assets/resume.pdf";
 
 links = [
@@ -22,8 +22,9 @@ secret = [
 
 projects = [
   "<br>",
-  '##  Temperature Indicator','A system that takes into account both external and internal temperatures,equipped with two temperature probes,','one to be placed outside and the other inside the habitat (both to be kept in the shade).',"<br>",
-  '## Arduino Based CNC Plotter Machine','Numerous CNC machines exist globally, with some being highly technical and complex to manufacture or operate','successfully. Due to this, the decision was made to construct a straightforward CNC machine based on the Arduino','platform, which is by far the easiest to construct.',"<br>"
+  '##  Design and Implementation of an embedded electronic and computer interface for localization and navigation of a mobile robot in an unknown environment',' Developed an autonomous navigation system for an indoor mobile robot using the Robot Operating System (ROS). The project involved three key modules: mapping (SLAM algorithm with 2D/3D sensor data), localization (AMCL approach for pose estimation), and planning (utilizing the navigation stack for collision-free trajectory generation and control commands).',"<br>",
+  '##  Temperature Indicator','A system that takes into account both external and internal temperatures,equipped with two temperature probes, one to be placed outside and the other inside the habitat (both to be kept in the shade).',"<br>",
+  '## Arduino Based CNC Plotter Machine','Numerous CNC machines exist globally, with some being highly technical and complex to manufacture or operate successfully. Due to this, the decision was made to construct a straightforward CNC machine based on the Arduino platform, which is by far the easiest to construct.',"<br>"
 ];
 
 help = [
@@ -45,11 +46,11 @@ const deviceTypeAbout = () => {
   if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
     about = [
       "<br>",
-      "my name is Adnan Amara,", "I am an electronics and embedded systems engineer from Algeria ✨","<br>",
-      "👀 I\'m interested in Hardware hacking"," Robotics"," embedded systems","cryptography and ML","<br>",
+      "my name is Adnan Amara,", "I am an electronics and embedded systems engineer from Canada ✨","<br>",
+      "👀 I\'m interested in Hardware hacking"," Robotics"," embedded systems","Microelectronics","<br>",
       "🌱 I believe that autonomous driving should not be limited to high-end vehicles","so I'm looking forward to develop retrofit kits that can be installed on existing cars to make them autonomous","<br>",
       "📄 I\'m looking to collaborate on a research paper","<br>", 
-      "📫 How to reach me : adnan.amara@etu.enp-oran.dz","<br>",
+      "📫 How to reach me : adnanamara213@gmail.com","<br>",
       "<br>"
     ];
 
@@ -57,11 +58,11 @@ const deviceTypeAbout = () => {
   
     about = [
       "<br>",
-      "my name is Adnan Amara, I am an electronics and embedded systems engineer from Algeria ✨",
-      "👀 I\'m interested in Hardware hacking, Robotics, embedded systems, cryptography and ML",
-      "🌱 I believe that autonomous driving should not be limited to high-end vehicles, so I'm looking forward","      to develop retrofit kits that can be installed on existing cars to make them autonomous",
+      "my name is Adnan Amara, I am an electronics and embedded systems engineer from Canada ✨",
+      "👀 I\'m interested in Hardware hacking, Robotics, embedded systems, Microelectronics",
+      "🌱 I believe that autonomous driving should not be limited to high-end vehicles, so I'm looking forward","   to develop retrofit kits that can be installed on existing cars to make them autonomous",
       "📄 I\'m looking to collaborate on a research paper", 
-      "📫 How to reach me : adnan.amara@etu.enp-oran.dz",
+      "📫 How to reach me : adnanamara213@gmail.com",
       "<br>"
     ];
   }
