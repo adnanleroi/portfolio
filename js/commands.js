@@ -22,6 +22,7 @@ secret = [
 
 projects = [
   "<br>",
+  '##  Design and Simulation of an Operational Amplifier in CMOS-0.18µm Technology and Chip Design','Designed and simulated a high-performance two-stage operational amplifier using CMOS 0.18μm technology, achieving over 75 dB gain and 53° phase margin through the optimization of both standard and cascode topologies, and validated functionality via comprehensive DC, AC, and transient simulations in open- and closed-loop modes; finalized with full custom layout in Cadence, including DRC/LVS checks and post-layout simulations to ensure robust performance under parasitic effects.',"<br>",
   '##  Design and Implementation of an embedded electronic and computer interface for localization and navigation of a mobile robot in an unknown environment',' Developed an autonomous navigation system for an indoor mobile robot using the Robot Operating System (ROS). The project involved three key modules: mapping (SLAM algorithm with 2D/3D sensor data), localization (AMCL approach for pose estimation), and planning (utilizing the navigation stack for collision-free trajectory generation and control commands).',"<br>",
   '##  Temperature Indicator','A system that takes into account both external and internal temperatures,equipped with two temperature probes, one to be placed outside and the other inside the habitat (both to be kept in the shade).',"<br>",
   '## Arduino Based CNC Plotter Machine','Numerous CNC machines exist globally, with some being highly technical and complex to manufacture or operate successfully. Due to this, the decision was made to construct a straightforward CNC machine based on the Arduino platform, which is by far the easiest to construct.',"<br>"
@@ -47,7 +48,7 @@ const deviceTypeAbout = () => {
     about = [
       "<br>",
       "my name is Adnan Amara,", "I am an electronics and embedded systems engineer from Canada ✨","<br>",
-      "👀 I\'m interested in Hardware hacking"," Robotics"," embedded systems","Microelectronics","<br>",
+      "👀 I\'m interested in Hardware hacking"," Robotics"," embedded systems","Microelectronics","and telecommunications","<br>",
       "🌱 I believe that autonomous driving should not be limited to high-end vehicles","so I'm looking forward to develop retrofit kits that can be installed on existing cars to make them autonomous","<br>",
       "📄 I\'m looking to collaborate on a research paper","<br>", 
       "📫 How to reach me : adnanamara213@gmail.com","<br>",
@@ -59,7 +60,7 @@ const deviceTypeAbout = () => {
     about = [
       "<br>",
       "my name is Adnan Amara, I am an electronics and embedded systems engineer from Canada ✨",
-      "👀 I\'m interested in Hardware hacking, Robotics, embedded systems, Microelectronics",
+      "👀 I\'m interested in Hardware hacking, Robotics, embedded systems, Microelectronics and Telecommunications",
       "🌱 I believe that autonomous driving should not be limited to high-end vehicles, so I'm looking forward","   to develop retrofit kits that can be installed on existing cars to make them autonomous",
       "📄 I\'m looking to collaborate on a research paper", 
       "📫 How to reach me : adnanamara213@gmail.com",
